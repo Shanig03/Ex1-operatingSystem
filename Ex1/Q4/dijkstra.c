@@ -65,7 +65,11 @@ int main()
             scanf("%d", &temp);
             if (temp < 0) {
                 printf("Cant enter a negative weight\n");
-                graph[i][j] = 0;
+                //for (int k = 0; k < V; k++){
+                //    free(graph[k]);
+                //    free(graph);
+                //}
+                exit(1);
             }
             graph[i][j] = temp;
         }
