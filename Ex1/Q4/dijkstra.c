@@ -69,7 +69,7 @@ int main()
                 //    free(graph[k]);
                 //    free(graph);
                 //}
-                exit(1);
+                exit(1);// return 1 ??
             }
             graph[i][j] = temp;
         }
